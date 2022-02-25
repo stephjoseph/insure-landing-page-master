@@ -9,39 +9,157 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="../images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="../dist/style.css" />
 
     <title>Insure landing page</title>
   </head>
   <body class="grid place-items-center font-['Karla']">
-    <header class="mb-[8.75rem] w-full max-w-[26.75rem]">
-      <div class="flex items-center justify-between p-6">
+    <nav
+      id="mobile-nav"
+      class="pointer-events-none fixed top-20 z-50 flex h-[36.688rem] w-full max-w-[26.75rem] translate-x-full flex-col items-center gap-6 bg-[#2C2830] px-6 pt-10 opacity-0 transition-[transform,_opacity] duration-300 ease-in"
+    >
+      <div class="absolute bottom-0 w-full">
+        <img class="w-full" src="../images/bg-pattern-mobile-nav.svg" alt="" />
+      </div>
+      <ul class="flex flex-col items-center gap-6 text-center">
+        <li>
+          <a
+            class="text-[1.25rem] font-bold uppercase leading-10 tracking-[1.36px] text-white"
+            href="#"
+            >How we work</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-[1.25rem] font-bold uppercase leading-10 tracking-[1.36px] text-white"
+            href="#"
+            >Blog</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-[1.25rem] font-bold uppercase leading-10 tracking-[1.36px] text-white"
+            href="#"
+            >Account</a
+          >
+        </li>
+      </ul>
+      <a
+        class="flex h-14 w-full items-center justify-center border-[1.5px] border-solid border-white text-[1.25rem] font-bold uppercase leading-10 tracking-[1.36px] text-white"
+        href="#"
+        >View Plans</a
+      >
+    </nav>
+    <header
+      class="mb-[8.75rem] w-full max-w-[26.75rem] xl:mb-[19.063rem] xl:max-w-[90rem]"
+    >
+      <div
+        id="mobile-navbar"
+        class="fixed z-50 flex w-full max-w-[26.75rem] items-center bg-white py-[1.938rem] px-6 shadow xl:hidden"
+      >
         <a href="#" aria-label="inpsire home">
           <img src="../images/logo.svg" alt="" />
         </a>
-        <button type="button" aria-label="menu button">
+        <button
+          id="open-nav-button"
+          class="absolute right-6 top-6 transition-[opacity] duration-300 ease-in"
+          type="button"
+          aria-label="open nav"
+        >
           <img src="../images/icon-hamburger.svg" alt="" />
         </button>
+        <button
+          id="close-nav-button"
+          class="pointer-events-none absolute right-6 top-6 opacity-0 transition-[opacity] duration-300 ease-in"
+          type="button"
+          aria-label="close nav"
+        >
+          <img src="../images/icon-close.svg" alt="" />
+        </button>
       </div>
-      <div class="w-full">
+      <nav
+        class="relative z-50 hidden h-[5rem] w-full max-w-[90rem] items-center justify-between py-[1.313rem] pl-[10.5rem] pr-[10.313rem] xl:flex"
+      >
+        <a href="#"><img src="../images/logo.svg" alt="" /></a>
+        <div class="flex items-center">
+          <ul class="mr-[2.063rem] flex items-center gap-[1.625rem]">
+            <li>
+              <a
+                class="text-[0.813rem] font-bold uppercase leading-[0.938rem] tracking-[1.5px] text-[#837D88]"
+                href="#"
+                >How we work</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[0.813rem] font-bold uppercase leading-[0.938rem] tracking-[1.5px] text-[#837D88]"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[0.813rem] font-bold uppercase leading-[0.938rem] tracking-[1.5px] text-[#837D88]"
+                href="#"
+                >Account</a
+              >
+            </li>
+          </ul>
+          <a
+            class="flex h-10 w-[9.125rem] items-center justify-center border-[1.5px] border-solid border-[#2C2830] text-[0.813rem] font-bold uppercase leading-[0.938rem] tracking-[1.5px] text-[#2C2830]"
+            href="#"
+            >View plans</a
+          >
+        </div>
+      </nav>
+      <div class="mt-20 w-full xl:hidden">
         <img class="w-full" src="../images/image-intro-mobile.jpg" alt="" />
       </div>
       <div
-        class="relative flex w-full flex-col items-center gap-8 bg-[#2D2641] py-[5.813rem] px-6"
+        class="relative z-40 flex w-full flex-col items-center gap-8 bg-[#2D2641] py-[5.813rem] px-6 xl:items-start xl:gap-0 xl:pb-[7.938rem] xl:pt-[6.563rem] xl:pr-[45.938rem] xl:pl-[10.313rem]"
       >
-        <div class="absolute left-0 top-0">
-          <img src="../images/bg-pattern-intro-left-mobile.svg" alt="" />
+        <div class="absolute left-0 top-0 xl:top-[25.875rem]">
+          <img
+            class="xl:hidden"
+            src="../images/bg-pattern-intro-left-mobile.svg"
+            alt=""
+          />
+          <img
+            class="hidden xl:block"
+            src="../images/bg-pattern-intro-left-desktop.svg"
+            alt=""
+          />
         </div>
-        <div class="absolute right-0 top-[21.625rem]">
-          <img src="../images/bg-pattern-intro-right-mobile.svg" alt="" />
+        <div class="absolute right-0 top-[21.625rem] z-30 xl:top-0">
+          <img
+            class="xl:hidden"
+            src="../images/bg-pattern-intro-right-mobile.svg"
+            alt=""
+          />
+          <img
+            class="hidden xl:block"
+            src="../images/bg-pattern-intro-right-desktop.svg"
+            alt=""
+          />
         </div>
-        <div class="z-10 flex flex-col items-center gap-4 text-center">
+        <div
+          class="absolute left-[45.938rem] top-[6.563rem] z-10 hidden xl:block"
+        >
+          <img src="../images/image-intro-desktop.jpg" alt="" />
+        </div>
+        <hr
+          class="mb-[3.938rem] hidden h-px w-[9.375rem] border-white xl:block"
+        />
+        <div
+          class="z-10 flex flex-col items-center gap-4 text-center xl:mb-6 xl:items-start xl:text-left"
+        >
           <h1
-            class="font-['DM_Serif_Display'] text-[3rem] font-normal leading-[3rem] tracking-[-0.67px] text-white"
+            class="font-['DM_Serif_Display'] text-[3rem] font-normal leading-[3rem] tracking-[-0.67px] text-white xl:text-[4.5rem] xl:leading-[4rem]"
           >
-            Humanizing your insurance.
+            Humanizing <br class="hidden xl:inline" />
+            your insurance.
           </h1>
           <p
             class="text-base font-normal leading-[1.625rem] tracking-normal text-white"
@@ -329,5 +447,6 @@
         </div>
       </nav>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
