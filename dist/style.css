@@ -964,6 +964,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(45 38 65 / var(--tw-text-opacity));
 }
 
+.decoration-\[1\.5px\]{
+  text-decoration-thickness: 1.5px;
+}
+
 .opacity-0{
   opacity: 0;
 }
@@ -1012,6 +1016,64 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
+.hover\:bg-\[\#2C2830\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(44 40 48 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#2C2830\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(44 40 48 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.active\:bg-\[\#2C2830\]:active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(44 40 48 / var(--tw-bg-opacity));
+}
+
+.active\:bg-white:active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.active\:text-\[\#2C2830\]:active{
+  --tw-text-opacity: 1;
+  color: rgb(44 40 48 / var(--tw-text-opacity));
+}
+
+.active\:text-white:active{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.active\:underline:active{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.group:hover .group-hover\:fill-\[\#2C2830\]{
+  fill: #2C2830;
+}
+
+.group:active .group-active\:fill-\[\#2C2830\]{
+  fill: #2C2830;
+}
+
 @media (min-width: 1280px){
   .xl\:top-\[25\.875rem\]{
     top: 25.875rem;
@@ -1041,6 +1103,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 19.063rem;
   }
 
+  .xl\:mb-\[3\.938rem\]{
+    margin-bottom: 3.938rem;
+  }
+
+  .xl\:mb-12{
+    margin-bottom: 3rem;
+  }
+
+  .xl\:mb-\[2\.063rem\]{
+    margin-bottom: 2.063rem;
+  }
+
   .xl\:block{
     display: block;
   }
@@ -1065,16 +1139,76 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 27.188rem;
   }
 
+  .xl\:w-\[69\.375rem\]{
+    width: 69.375rem;
+  }
+
+  .xl\:w-\[21\.875rem\]{
+    width: 21.875rem;
+  }
+
+  .xl\:w-auto{
+    width: auto;
+  }
+
+  .xl\:w-\[33rem\]{
+    width: 33rem;
+  }
+
+  .xl\:w-full{
+    width: 100%;
+  }
+
+  .xl\:w-\[15\.938rem\]{
+    width: 15.938rem;
+  }
+
   .xl\:max-w-\[90rem\]{
     max-width: 90rem;
+  }
+
+  .xl\:flex-row{
+    flex-direction: row;
   }
 
   .xl\:items-start{
     align-items: flex-start;
   }
 
+  .xl\:justify-between{
+    justify-content: space-between;
+  }
+
   .xl\:gap-0{
     gap: 0px;
+  }
+
+  .xl\:gap-\[1\.875rem\]{
+    gap: 1.875rem;
+  }
+
+  .xl\:gap-\[9\.875rem\]{
+    gap: 9.875rem;
+  }
+
+  .xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:py-\[4\.313rem\]{
+    padding-top: 4.313rem;
+    padding-bottom: 4.313rem;
+  }
+
+  .xl\:px-\[10\.313rem\]{
+    padding-left: 10.313rem;
+    padding-right: 10.313rem;
+  }
+
+  .xl\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .xl\:pl-\[10\.313rem\]{
@@ -1101,7 +1235,19 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 4.5rem;
   }
 
+  .xl\:text-\[3\.5rem\]{
+    font-size: 3.5rem;
+  }
+
   .xl\:leading-\[4rem\]{
     line-height: 4rem;
+  }
+
+  .xl\:leading-\[4\.5rem\]{
+    line-height: 4.5rem;
+  }
+
+  .xl\:leading-\[3\.5rem\]{
+    line-height: 3.5rem;
   }
 }
