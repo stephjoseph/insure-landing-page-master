@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -423,7 +425,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -466,4 +468,191 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.top-\[21\.625rem\]{
+  top: 21.625rem;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.mb-\[8\.75rem\]{
+  margin-bottom: 8.75rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-\[9\.125rem\]{
+  width: 9.125rem;
+}
+
+.max-w-\[26\.75rem\]{
+  max-width: 26.75rem;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.place-items-center{
+  place-items: center;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.border-\[1\.5px\]{
+  border-width: 1.5px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#2D2641\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 38 65 / var(--tw-bg-opacity));
+}
+
+.p-6{
+  padding: 1.5rem;
+}
+
+.py-\[5\.813rem\]{
+  padding-top: 5.813rem;
+  padding-bottom: 5.813rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-\[\'Karla\'\]{
+  font-family: 'Karla';
+}
+
+.font-\[\'DM_Serif_Display\'\]{
+  font-family: 'DM Serif Display';
+}
+
+.text-\[3rem\]{
+  font-size: 3rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-\[0\.813rem\]{
+  font-size: 0.813rem;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.leading-\[3rem\]{
+  line-height: 3rem;
+}
+
+.leading-\[1\.625rem\]{
+  line-height: 1.625rem;
+}
+
+.leading-\[0\.938rem\]{
+  line-height: 0.938rem;
+}
+
+.tracking-\[-0\.67px\]{
+  letter-spacing: -0.67px;
+}
+
+.tracking-normal{
+  letter-spacing: 0em;
+}
+
+.tracking-\[1\.5px\]{
+  letter-spacing: 1.5px;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
