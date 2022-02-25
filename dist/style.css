@@ -498,8 +498,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-\[8\.75rem\]{
   margin-bottom: 8.75rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
 }
 
 .flex{
@@ -514,12 +527,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.5rem;
 }
 
+.h-px{
+  height: 1px;
+}
+
 .w-full{
   width: 100%;
 }
 
 .w-\[9\.125rem\]{
   width: 9.125rem;
+}
+
+.w-\[20\.438rem\]{
+  width: 20.438rem;
+}
+
+.w-\[9\.375rem\]{
+  width: 9.375rem;
+}
+
+.w-\[10rem\]{
+  width: 10rem;
 }
 
 .max-w-\[26\.75rem\]{
@@ -554,6 +583,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1rem;
 }
 
+.gap-\[8\.75rem\]{
+  gap: 8.75rem;
+}
+
+.gap-14{
+  gap: 3.5rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
 .border-\[1\.5px\]{
   border-width: 1.5px;
 }
@@ -565,6 +606,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[\#C396C6\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(195 150 198 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -589,6 +635,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-\[4\.5rem\]{
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .text-center{
@@ -616,6 +667,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 0.813rem;
 }
 
+.text-\[1\.75rem\]{
+  font-size: 1.75rem;
+}
+
+.text-\[2\.5rem\]{
+  font-size: 2.5rem;
+}
+
 .font-normal{
   font-weight: 400;
 }
@@ -640,6 +699,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 0.938rem;
 }
 
+.leading-\[2\.375rem\]{
+  line-height: 2.375rem;
+}
+
+.leading-\[2\.5rem\]{
+  line-height: 2.5rem;
+}
+
 .tracking-\[-0\.67px\]{
   letter-spacing: -0.67px;
 }
@@ -652,7 +719,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   letter-spacing: 1.5px;
 }
 
+.tracking-\[-0\.39px\]{
+  letter-spacing: -0.39px;
+}
+
+.tracking-\[-0\.56px\]{
+  letter-spacing: -0.56px;
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#2C2830\]{
+  --tw-text-opacity: 1;
+  color: rgb(44 40 48 / var(--tw-text-opacity));
+}
+
+.text-\[\#837D88\]{
+  --tw-text-opacity: 1;
+  color: rgb(131 125 136 / var(--tw-text-opacity));
 }
